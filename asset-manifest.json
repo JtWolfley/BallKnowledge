@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/JtWolfley/ballknowledge/static/css/main.f855e6bc.css",
+    "main.js": "/JtWolfley/ballknowledge/static/js/main.0d4c03cf.js",
+    "static/js/453.70165dee.chunk.js": "/JtWolfley/ballknowledge/static/js/453.70165dee.chunk.js",
+    "static/media/logo.svg": "/JtWolfley/ballknowledge/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/JtWolfley/ballknowledge/index.html",
+    "main.f855e6bc.css.map": "/JtWolfley/ballknowledge/static/css/main.f855e6bc.css.map",
+    "main.0d4c03cf.js.map": "/JtWolfley/ballknowledge/static/js/main.0d4c03cf.js.map",
+    "453.70165dee.chunk.js.map": "/JtWolfley/ballknowledge/static/js/453.70165dee.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.0d4c03cf.js"
+  ]
+}
