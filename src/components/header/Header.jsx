@@ -1,11 +1,15 @@
 import "./Header.css";
-import logo from "./basketblogo.png";
+import logo from "./images/basketblogo.png";
 import Navigation from "../navigation/Navigation";
+
 const Header = () => {
     return (
         <header className="main-header">
-            <img src="/images/basketblogo.png" alt="Beyond The Arc Logo" />
-            <h1>Ball Knowledge</h1>
+            <div className="header-logo">
+                <img src={logo} alt="Beyond The Arc Logo" />
+                <h1>Ball Knowledge</h1>
+            </div>
+            <Navigation />
         </header>
     );
 };
