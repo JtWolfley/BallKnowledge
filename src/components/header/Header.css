@@ -1,31 +1,43 @@
 .main-header {
+    background: var(--gray);
+    color: var(--white);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
-    background-color: #777777;
-    color: white;
+    padding: 10px 30px;
 }
 
 .header-logo {
     display: flex;
     align-items: center;
-    gap: 15px;
+    color: var(--white);
+    text-decoration: none;
 }
 
 .header-logo img {
-    width: 70px;
-    height: auto;
+    width: 90px;
+    height: 65px;
 }
 
 .header-logo h1 {
-    margin: 0;
+    margin-left: 15px;
     font-size: 28px;
 }
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 780px) {
     .main-header {
-        flex-direction: column;
-        gap: 20px;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5px 8px;
+        gap: 5px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .header-logo h1 {
+        font-size: 11px;
+        margin-left: 5px;
+        white-space: nowrap;
     }
 }

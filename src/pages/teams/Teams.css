@@ -1,0 +1,104 @@
+
+#teams-page {
+    background: black;
+    color: white;
+    padding: 25px 8% 80px;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+#teams-heading {
+    text-align: center;
+}
+
+#teams-heading p:first-child {
+    color: var(--orange);
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#teams-heading h1 {
+    font-size: 38px;
+    margin: 12px 0;
+}
+
+#teams-heading p:last-child {
+    font-size: 14px;
+    line-height: 1.5;
+    max-width: 500px;
+    margin: auto;
+}
+
+#team-search {
+    max-width: 650px;
+    margin: 90px auto 50px;
+    text-align: center;
+}
+
+#team-search label {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+#team-search-fields {
+    display: flex;
+    gap: 8px;
+}
+
+#team-search-fields input {
+    flex: 2;
+    min-width: 0;
+    padding: 14px;
+    border: none;
+}
+
+#team-search-fields select {
+    flex: 1;
+    min-width: 0;
+    padding: 14px;
+    border: none;
+}
+
+#teams-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 40px 60px;
+    max-width: 1000px;
+    margin: auto;
+    justify-items: center;
+}
+
+@media only screen and (max-width: 780px) {
+    #teams-page {
+        padding: 25px 5% 50px;
+    }
+
+    #teams-heading h1 {
+        font-size: 25px;
+    }
+
+    #teams-heading p:last-child {
+        font-size: 10px;
+    }
+
+    #team-search {
+        margin: 45px auto 30px;
+    }
+
+    #team-search label {
+        font-size: 10px;
+    }
+
+    #team-search-fields input,
+    #team-search-fields select {
+        font-size: 9px;
+        padding: 9px;
+    }
+
+    #teams-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 20px 10px;
+    }
+}
