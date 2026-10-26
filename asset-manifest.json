@@ -1,14 +1,28 @@
 {
   "files": {
-    "main.css": "/ballknowledge/static/css/main.d8c2b975.css",
-    "main.js": "/ballknowledge/static/js/main.4341ac1e.js",
+    "main.css": "/ballknowledge/static/css/main.4e5fa925.css",
+    "main.js": "/ballknowledge/static/js/main.114e91a8.js",
+    "static/media/curry.png": "/ballknowledge/static/media/curry.9e55314873c58754753f.png",
+    "static/media/giannis.png": "/ballknowledge/static/media/giannis.1baf55b26d8ac260ba94.png",
+    "static/media/jokic.png": "/ballknowledge/static/media/jokic.874fc1af8d0dd9f0eda4.png",
+    "static/media/Brunson.png": "/ballknowledge/static/media/Brunson.0baa9c91bbc874147595.png",
+    "static/media/luka.png": "/ballknowledge/static/media/luka.59c40b624cb6c56b0f7b.png",
+    "static/media/sga.png": "/ballknowledge/static/media/sga.92a4a6b9997fcab52d3a.png",
+    "static/media/anthony.png": "/ballknowledge/static/media/anthony.4813aa8051807e8bda28.png",
+    "static/media/victorw.png": "/ballknowledge/static/media/victorw.493b5aeb47f82821fc64.png",
+    "static/media/about.png": "/ballknowledge/static/media/about.e3a4b2f8b435e09e79e7.png",
+    "static/media/homepageimage.png": "/ballknowledge/static/media/homepageimage.c5be83e917391ca8f006.png",
     "static/media/basketblogo.png": "/ballknowledge/static/media/basketblogo.071cd9cff40f82d4f667.png",
+    "static/media/twolves.png": "/ballknowledge/static/media/twolves.dc790a1f733b6a58af56.png",
+    "static/media/nuggets.png": "/ballknowledge/static/media/nuggets.9f5888277c6ea013bc08.png",
+    "static/media/Celtics.png": "/ballknowledge/static/media/Celtics.101428574a049e90e2a3.png",
+    "static/media/bulls.jpg": "/ballknowledge/static/media/bulls.b79635c0413e08352a12.jpg",
     "index.html": "/ballknowledge/index.html",
-    "main.d8c2b975.css.map": "/ballknowledge/static/css/main.d8c2b975.css.map",
-    "main.4341ac1e.js.map": "/ballknowledge/static/js/main.4341ac1e.js.map"
+    "main.4e5fa925.css.map": "/ballknowledge/static/css/main.4e5fa925.css.map",
+    "main.114e91a8.js.map": "/ballknowledge/static/js/main.114e91a8.js.map"
   },
   "entrypoints": [
-    "static/css/main.d8c2b975.css",
-    "static/js/main.4341ac1e.js"
+    "static/css/main.4e5fa925.css",
+    "static/js/main.114e91a8.js"
   ]
 }
