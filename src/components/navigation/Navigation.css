@@ -1,3 +1,4 @@
+
 .main-nav {
     display: flex;
     list-style-type: none;
@@ -13,21 +14,29 @@
     margin-left: 35px;
 }
 
+.main-nav a:hover {
+    color: var(--orange);
+}
+
 @media only screen and (max-width: 780px) {
     .main-nav {
-        flex-direction: row;
-        justify-content: space-between;
-        gap: 10px;
-        width: auto;
-        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        padding: 20px 0;
+        width: 100%;
     }
 
-    .main-nav h1 {
-        font-size: 10px;
+    .main-nav li {
+        width: 100%;
+        text-align: center;
     }
+
     .main-nav a {
+        display: block;
         margin-left: 0;
         font-size: 15px;
-        display: block;
+        padding: 8px;
     }
 }

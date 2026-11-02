@@ -1,6 +1,7 @@
 
 import "./Players.css";
 import Player from "../../components/player/Player";
+import Slideshow from "../../components/slideshow/Slideshow";
 
 import anthony from "../../components/player/images/anthony.png";
 import victorw from "../../components/player/images/victorw.png";
@@ -23,6 +24,8 @@ const Players = () => {
                     positions, accomplishments, and performance on the court.
                 </p>
             </div>
+
+        <Slideshow />
 
             <div id="player-search">
                 <label>FIND A PLAYER</label>

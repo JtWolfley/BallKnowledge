@@ -1,3 +1,4 @@
+
 import "./Highlights.css";
 
 const Highlights = () => {
@@ -14,6 +15,13 @@ const Highlights = () => {
             </p>
 
             <div id="highlights-video">
+                <iframe
+                    src="https://www.youtube.com/embed/ujGSt-93qZo"
+                    title="NBA Highlights"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerPolicy="strict-origin-when-cross-origin"
+                    allowFullScreen
+                ></iframe>
             </div>
         </section>
     );

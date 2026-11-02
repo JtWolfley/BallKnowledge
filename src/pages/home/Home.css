@@ -41,6 +41,22 @@
     min-width: 0;
 }
 
+#trivia-title p {
+    color: var(--orange);
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+#trivia-title h2 {
+    font-size: 27px;
+    margin-top: 0;
+}
+
+#trivia-title {
+    text-align: center;
+}
+
 @media only screen and (max-width: 780px) {
     #player-list {
         flex-direction: column;

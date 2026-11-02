@@ -45,6 +45,10 @@
     background-color: #d96538;
 }
 
+.trivia-answer.show {
+    display: block;
+}
+
 @media only screen and (max-width: 780px) {
     .trivia-card {
         min-height: 155px;
